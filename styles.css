@@ -1,2 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 30px;
+}
 
-/* Your CSS Code here. */
+h2 {
+  color: #2e7d32;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+tr:last-child td {
+  font-weight: bold;
+  background-color: #e8f5e9;
+}
